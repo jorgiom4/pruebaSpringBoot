@@ -1,11 +1,13 @@
 package com.nmemo.prueba.spring.service.impl;
 
-import com.nmemo.prueba.spring.service.interfaces.IOperacion;
+import com.nmemo.prueba.spring.service.interfaces.IOperacionService;
+import org.springframework.stereotype.Service;
 
 /**
  * Implementación del servicio Operacion
  */
-public class OperacionImpl implements IOperacion {
+@Service
+public class OperacionServiceImpl implements IOperacionService {
 
     /**
      * Realizamos la operación matemática de sumar
